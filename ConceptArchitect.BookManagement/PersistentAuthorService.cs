@@ -9,6 +9,7 @@ namespace ConceptArchitect.BookManagement
 {
     public class PersistentAuthorService : IAuthorService
     {
+
         IRepository<Author, string> repository;
 
         //constructor based DI
