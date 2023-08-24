@@ -1,42 +1,197 @@
-﻿body {
-    width: 100%;
-    background-image: url("https://wallpapers.com/images/hd/book-background-drbrjqlbwnlo5uon.jpg");
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 45% -160px;
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.pb-3{
+section {
     width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapers.com/images/hd/book-background-drbrjqlbwnlo5uon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar container */
+.navbar {
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0 0 10px #089da1;
+}
+
+    .navbar img {
+        width: 50px;
+        margin-left: 20px;
+        margin-top: 20%;
+    }
+
+.navbar-contents {
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    left: 0;
+    width: 650px;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+    .navbar-contents a {
+        position: relative;
+        width: 25%;
+        display: table-cell;
+        text-align: center;
+        color: #949494;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: 0.2s ease color;
+    }
+
+/* The dropdown container */
+.dropdown {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    /* width: 650px; */
+    display: table;
+    margin: 0 0 0 auto;
+    transform: translateY(-50%);
+}
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+        background-color: white;
+    }
+
+#indicator {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+.navbar-contents a:hover {
+    color: black;
+}
+
+    .navbar-contents a:hover:before,
+    .navbar-contents a:hover:after {
+        transform: scale(1);
+    }
+
+.navbar-contents a:nth-child(1):hover ~ #indicator {
+    background: linear-gradient(130deg, yellow, red);
+}
+
+.navbar-contents a:nth-child(2):hover ~ #indicator {
+    left: 27%;
+    background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+.navbar-contents a:nth-child(3):hover ~ #indicator {
+    left: 57%;
+    background: linear-gradient(130deg, purple, palevioletred);
+}
+
+.navbar-contents a:nth-child(4):hover ~ #indicator {
+    left: 77%;
+    background: linear-gradient(130deg, #04ad37, #60cfd4);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+    margin-left: -55%;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: gray;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-weight: bold;
+    }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover {
+    color: black;
+}
+
+.dropdown-content a:hover {
+    color: black;
+}
+
+    .dropdown-content a:hover:before,
+    .dropdown-content a:hover:after {
+        transform: scale(1);
+    }
+
+.dropdown-content a:nth-child(1):hover ~ #indicator {
+    top: 33%;
+    background: linear-gradient(130deg, yellow, red);
+}
+
+.dropdown-content a:nth-child(2):hover ~ #indicator {
+    top: 66%;
+    background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+.dropdown-content a:nth-child(3):hover ~ #indicator {
+    top: 95%;
+    background: linear-gradient(130deg, purple, palevioletred);
 }
 
 .main {
     text-align: center;
+    margin-top: 10%;
     font-weight: 100;
-    margin-top: 1%;
     font-family: monospace;
     font-size: 25px;
     color: #089da1;
     text-shadow: 0 0 2px #5a74e6;
-    /*background-image: url("https://wallpapers.com/images/hd/book-background-drbrjqlbwnlo5uon.jpg");
+    background-image: url("https://wallpapers.com/images/hd/book-background-drbrjqlbwnlo5uon.jpg");
     background-size: cover;
-    background-position: center;*/
+    background-position: center;
     width: 100%;
-    height: 60vh;
+    height: 75vh;
 }
 
-.main p span {
-    margin-left: 40%;
-    font-size: 20px;
-    margin-bottom:5px;
-}
+    .main p span {
+        margin-left: 40%;
+        font-size: 20px;
+    }
 
 .featured_boks {
     width: 100%;
     height: 80vh;
-    background: white;
-    opacity: 0.95;
     padding: 70px 0;
 }
 
@@ -60,7 +215,7 @@
     }
 
         .featured_boks .featured_book_box .featured_book_card {
-            width: 300px;
+            width: 250px;
             height: 420px;
             text-align: center;
             padding: 5px;
@@ -121,9 +276,7 @@
     width: 100%;
     height: 85vh;
     padding: 70px 0;
-    background:white;
-    opacity:0.95;
-
+    margin-bottom: 90px;
 }
 
     .top_review h1 {
@@ -163,20 +316,29 @@
             }
 
             .top_review .top_review_box .top_review_card .top_review_tag h2 {
-                margin: 10px;
-                font-size: 20px;
+                margin: 12px;
+                font-size: 15px;
             }
 
             .top_review .top_review_box .top_review_card .top_review_tag .book {
                 color: #919191;
-                margin: 10px;
             }
 
             .top_review .top_review_box .top_review_card .top_review_tag .review {
                 color: #089da1;
-                margin-top: 5px;
-                font-size: 15px;
+                margin-top: 8px;
             }
+
+            .top_review .top_review_box .top_review_card .top_review_tag .book_price {
+                margin-top: 8px;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+
+                .top_review .top_review_box .top_review_card .top_review_tag .book_price sub {
+                    font-weight: 100;
+                    padding: 0 5px;
+                }
 
 ::-webkit-scrollbar {
     width: 10px;
