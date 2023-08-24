@@ -6,18 +6,38 @@
 
 
 
+<head>
+    <link rel="stylesheet" href="~/css/AddPageStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/AddPageStyle.css" asp-append-version="true" />
+    <title>Add Authors</title>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2021/01/21/16/49/books-5937823_1280.jpg");
+        }
+    </style>
+</head>
 <body>
     <div class="container">
-
-        <form asp-action="Add" asp-controller="User">
-            <h2>Login</h2>
-            <label asp-for="@Model.Email" class='form-label'>Email</label>
-            <input type='text' name="Id" value="@Model.Email" />
-            <label asp-for="@Model.Password" class='form-label'>Password</label>
-            <input type='text' name="Password" value="@Model.Password" />
-
-            <button class="submit-button" type="submit" onclick="login()">LOGIN</button>
+    
+        <form asp-action="Login" method="Post" class="form-content animate">
+            <h2 class="form-name">LOGIN</h2>
+            <div class="form-container">
+                <div>
+                    <label asp-for="@Model.Email" class='form-label'>Email</label>
+                    <input type='text' name="Id" value="@Model.Email" />
+                </div>
+                <div>
+                    <label asp-for="@Model.Password" class='form-label'>Password</label>
+                    <input type='password' name="Password" value="@Model.Password" />
+                </div>
+                <div>
+                    <input type="submit" value="Login User" class='btn btn-primary submit-btn' />
+                </div>
+                <p> Don't have an account? <a asp-action="Add" asp-controller="User">Sign Up Here</a></p>
+            </div>
         </form>
-        <p> Don't have an account? <a href="Add.cshtml">Sign Up Here</a></p>
+       
+
     </div>
+
 </body>
