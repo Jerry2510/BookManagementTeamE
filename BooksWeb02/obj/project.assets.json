@@ -541,19 +541,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bkhe\\.nuget\\packages\\": {}
+    "C:\\Users\\munnasa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
+      "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
       "projectName": "BooksWeb02",
-      "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
-      "packagesPath": "C:\\Users\\bkhe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\obj\\",
+      "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
+      "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bkhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -568,14 +568,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
-              "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj"
+            "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
+              "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj"
             },
-            "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-              "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+            "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+              "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
             },
-            "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-              "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+            "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+              "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
             }
           }
         }

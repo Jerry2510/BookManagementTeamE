@@ -1,0 +1,64 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    margin-top:5%;
+    min-height: 100%;
+    width: 100%;
+    background:white;
+    opacity:0.8;
+}
+
+.testimonial {
+    padding: 30px 50px;
+}
+
+article h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+article img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 30%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+article h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+article p {
+    font-size: 12px;
+}
