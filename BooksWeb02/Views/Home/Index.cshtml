@@ -1,8 +1,325 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Home Page</title>
+        <link rel="stylesheet" href="~/css/homepageStyles.css" asp-append-version="true">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true">
+    </head>
+    <body>
+        <div class="main">
+            <p class="quote">You know you've read a good book when you turn the<br>last page and feel a little as if you have lost a friend</p>
+            <p><span><i>-Paul Sweeney</i></span></p>
+        </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        <!-- Featured Books -->
+
+        <div class="featured_boks">
+
+            <h1>Favourite Books</h1>
+
+            <div class="featured_book_box">
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/81zcPB7uMNL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>My Experiemnets with Truth</h2>
+                        <p class="writer">Mohandas Gandhi</p>
+                        <div class="categories">Autobiography</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                        <!-- <a href="#" class="f_btn">Learn More</a> -->
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/5165He67NEL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Philosophers Stone</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fantasy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/81c-qj2VZSL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>The Accursed God</h2>
+                        <p class="writer">Vivek Dutta Mishra</p>
+                        <div class="categories">Mythological Fiction</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/81YY9pQhzQL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Hind Swaraj</h2>
+                        <p class="writer">Mohandas Gandhi</p>
+                        <div class="categories">History</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/510CXXt9CqL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Chamber of Secrets</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fantasy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/51n7uF9FfxL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Prizoner of Azkaban</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fantasy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/71x4QZ2ZVXL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>India of my Dreams</h2>
+                        <p class="writer">Mohandas Gandhi</p>
+                        <div class="categories">Ideologies</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/513TQ4ihqqL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Goblet of Fire</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fantasy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/51iQwWIl+XL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Order of the Phoenix</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fantasy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/617L9R6omIL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Truth is God</h2>
+                        <p class="writer">Mohandas Gandhi</p>
+                        <div class="categories">Classic Fiction</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/51ibZl+yt8L.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Half-Blood Prince</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fanatsy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/51-GvIoiqYL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Harry Potter & the Deathly Hallows</h2>
+                        <p class="writer">J K Rowling</p>
+                        <div class="categories">Fantasy</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+
+                <div class="featured_book_card">
+
+                    <div class="featurde_book_img">
+                        <img src="https://m.media-amazon.com/images/I/51j6CgtiodL.jpg">
+                    </div>
+
+                    <div class="featurde_book_tag">
+                        <h2>Satyagraha in South Africa</h2>
+                        <p class="writer">Mohandas Gandhi</p>
+                        <div class="categories">Autobiography</div>
+                        <p class="book_price">₹500<sub><del>₹650</del></sub></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Top Reviews -->
+
+        <div class="top_review">
+            <h1>Top Reviews</h1>
+            <div class="top_review_box">
+                <div class="top_review_card">
+
+                    <div class="user_img">
+                        <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg">
+                    </div>
+
+                    <div class="top_review_tag">
+                        <h2>Ganesh Gaitonde</h2>
+                        <p class="book">Harry Potter & the Half-Blood Prince</p>
+                        <div class="review">The room of requirement was a nice spin to the story and its heart breaking when Albus Dumbledore's trust was broken and in such a brazen fashion. The mystery behind the half blood prince was simply genius . I would highly recommend this entire series to all age groups who are fascinated by the allure of apparating into the fantasy of magic 🪄</div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+
+                </div>
+
+                <div class="top_review_card">
+
+                    <div class="user_img">
+                        <img src="https://primewomen.com/wp-content/uploads/2022/09/How-to-Be-a-High-Value-Woman.jpg">
+                    </div>
+
+                    <div class="top_review_tag">
+                        <h2>Anjali Sharma</h2>
+                        <p class="book">Satyagraha in South Africa</p>
+                        <div class="review">First published in 1928 when his South African days were well over, this book provides invaluable insight into Gandhi's Satyagraha in South Africa. Sadly an increasingly rare find, this book offers some mixed biographical overview with commentary about the strength and limitations of satyagraha, as well as the important first members to make it work. Gandhi was not alone, but had invaluable help from Muslims, European Christians, Parsis and many others.</div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                </div>
+
+                <div class="top_review_card">
+
+                    <div class="user_img">
+                        <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=2000">
+                    </div>
+
+                    <div class="top_review_tag">
+                        <h2>Pankaj Mishra</h2>
+                        <p class="book">The Accursed God</p>
+                        <div class="review">A work of superb imagination in developing back-stories to incidents left unexplained in the Sage Vyasa’s work. Let down primarily by poor editing and proof-reading, uneven language and character development, at which Maharishi Vyasa was an absolute master. Still a riveting read. Hopefully, the sequels will not suffer the same shortcomings.</div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                </div>
+
+                <div class="top_review_card">
+
+                    <div class="user_img">
+                        <img src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=2000">
+                    </div>
+
+                    <div class="top_review_tag">
+                        <h2>Baburao Ganpatrao Aapte</h2>
+                        <p class="book">Harry Potter & the Goblet of Fire</p>
+                        <div class="review">"Harry Potter and the Goblet of Fire" is the fourth entry in J.K. Rowling's acclaimed Harry Potter series, and it continues to showcase her talent for world-building, character development, and storytelling. In this installment, the author takes the series in a slightly darker and more mature direction, while maintaining the sense of wonder and adventure that has captivated readers of all ages.</div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+
+                </div>
+
+                <div class="top_review_card">
+
+                    <div class="user_img">
+                        <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_50/3525307/211216-leena-nair-mb-0855.jpg">
+                    </div>
+
+                    <div class="top_review_tag">
+                        <h2>Aisha Varma</h2>
+                        <p class="book">My Experiments with Truth</p>
+                        <div class="review">I shall keep this book to the end of my life. To write this extend about ones life need so much courage,specially when you are the centre of attention of a continent. Bapu has written all his evil sides, About all his wrong doings or wrong thinking , consequenses of not being True, Alteration of beliefs, Staying in a course, How he found the compassion towards people and their right of dignity. The stories will teach you every lesson to live happy and self joyed life.</div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
