@@ -51,8 +51,8 @@
                     <span class="glyphicon glyphicon-align-justify"></span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <button asp-controller="User" asp-action="Login" class="dropdown-item" type="button">Login</button>
-                    <button asp-controller="User" asp-action="Add" class="dropdown-item" type="button">Sign Up</button>
+                    <button> <a class="dropdown-item" asp-action="Add" asp-controller="User">Sign Up</a> </button>
+                    <button> <a class="dropdown-item" asp-action="Login" asp-controller="User"> Login</a> </button>
                     <button class="dropdown-item" type="button">Members</button>
                 </div>
             </div>
