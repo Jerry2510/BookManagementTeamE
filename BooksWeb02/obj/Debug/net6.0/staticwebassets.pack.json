@@ -1,39 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BooksWeb02.bundle.scp.css",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BooksWeb02.bundle.scp.css",
       "PackagePath": "staticwebassets\\BooksWeb02.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\AddPageStyle.css",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\AddPageStyle.css",
       "PackagePath": "staticwebassets\\css\\AddPageStyle.css"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\Login.css",
-      "PackagePath": "staticwebassets\\css\\Login.css"
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\NavbarStyle.css",
+      "PackagePath": "staticwebassets\\css\\NavbarStyle.css"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\homepageStyles.css",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\homepageStyles.css",
       "PackagePath": "staticwebassets\\css\\homepageStyles.css"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\register.css",
-      "PackagePath": "staticwebassets\\css\\register.css"
-    },
-    {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\wwwroot\\logo.png",
+      "Id": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\logo.png",
       "PackagePath": "staticwebassets\\logo.png"
     },
     {

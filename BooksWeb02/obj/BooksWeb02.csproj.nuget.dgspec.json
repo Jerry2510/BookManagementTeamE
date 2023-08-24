@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj": {}
+    "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj": {
+    "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
+        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
         "projectName": "BooksWeb02",
-        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
+        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\BooksWeb02.csproj",
         "packagesPath": "C:\\Users\\bkhe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\BooksWeb02\\obj\\",
+        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bkhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,14 +29,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj"
               },
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
               },
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
+    "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
         "projectName": "ConceptArchitect.BookManagement.Repositories.Ado",
-        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
         "packagesPath": "C:\\Users\\bkhe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
+        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bkhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,11 +103,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
               },
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+    "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
         "projectName": "ConceptArchitect.BookManagement",
-        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
         "packagesPath": "C:\\Users\\bkhe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.BookManagement\\obj\\",
+        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bkhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,11 +165,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
               },
-              "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
           }
@@ -203,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+    "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
         "projectName": "ConceptArchitect.Data",
-        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
         "packagesPath": "C:\\Users\\bkhe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Data\\obj\\",
+        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bkhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -258,14 +258,14 @@
         }
       }
     },
-    "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+    "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "projectName": "ConceptArchitect.Utils",
-        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "packagesPath": "C:\\Users\\bkhe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE2\\BookManagementTeamE\\ConceptArchitect.Utils\\obj\\",
+        "outputPath": "C:\\Users\\bkhe\\BookManagementTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bkhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
