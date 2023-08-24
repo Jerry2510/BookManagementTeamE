@@ -12,6 +12,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             this.db = db;
         }
 
+        
 
         public async Task<Author> Add(Author author)
         {
@@ -82,5 +83,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             
 
         }
+
+        
     }
 }

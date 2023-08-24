@@ -1,6 +1,7 @@
 ﻿using ConceptArchitect.Data;
 using ConceptArchitect.Utils;
 using System.Data;
+using ConceptArchitect.BookManagement;
 
 namespace ConceptArchitect.BookManagement.Repositories.Ado
 {
@@ -73,5 +74,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             }
             return oldBook;
         }
+
+       
     }
 }

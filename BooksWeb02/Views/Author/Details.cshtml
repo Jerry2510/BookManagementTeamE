@@ -13,5 +13,5 @@
         <h3>Biography</h3>
         <p>@Model.Biography</p>
     </div>
-    <a asp-action="edit" class="btn  btn-primary">Edit</a>
+    <a asp-action="edit" asp-route-id="@Model.Id" class="btn  btn-primary">Edit</a>
 </div>
