@@ -1,0 +1,186 @@
+﻿body{
+    width: 100%;
+}
+
+.pb-3{
+    width: 100%;
+}
+
+.main {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5%;
+    font-family: monospace;
+    font-size: 25px;
+    color: #089da1;
+    text-shadow: 0 0 2px #5a74e6;
+    background-image: url("https://wallpapers.com/images/hd/book-background-drbrjqlbwnlo5uon.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 83vh;
+}
+
+.main p span {
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.featured_boks {
+    width: 100%;
+    height: 80vh;
+    padding: 70px 0;
+}
+
+    .featured_boks h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #089da1;
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .featured_boks .featured_book_box {
+        width: 95%;
+        height: 60vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+        .featured_boks .featured_book_box .featured_book_card {
+            width: 300px;
+            height: 420px;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #919191;
+            margin: auto 20px;
+        }
+
+            .featured_boks .featured_book_box .featured_book_card:hover {
+                box-shadow: 0 0 5px #089da1;
+            }
+
+            .featured_boks .featured_book_box .featured_book_card .featurde_book_img img {
+                width: 150px;
+            }
+
+            .featured_boks .featured_book_box .featured_book_card .featurde_book_tag h2 {
+                margin: 12px;
+                font-size: 20px;
+            }
+
+            .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .writer {
+                color: #919191;
+            }
+
+            .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .categories {
+                color: #089da1;
+                margin-top: 8px;
+            }
+
+            .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price {
+                margin-top: 8px;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+
+                .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price sub {
+                    font-weight: 100;
+                    padding: 0 5px;
+                }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #089da1;
+    border-radius: 10px;
+}
+
+/* top reviews */
+
+.top_review {
+    width: 100%;
+    height: 85vh;
+    padding: 70px 0;
+}
+
+    .top_review h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #089da1;
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .top_review .top_review_box {
+        width: 95%;
+        height: 60vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+        .top_review .top_review_box .top_review_card {
+            width: 400px;
+            height: 420px;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #919191;
+            margin: auto 20px;
+        }
+
+            .top_review .top_review_box .top_review_card:hover {
+                box-shadow: 0 0 5px #089da1;
+            }
+
+            .top_review .top_review_box .top_review_card .user_img img {
+                width: 150px;
+            }
+
+            .top_review .top_review_box .top_review_card .top_review_tag h2 {
+                margin: 10px;
+                font-size: 20px;
+            }
+
+            .top_review .top_review_box .top_review_card .top_review_tag .book {
+                color: #919191;
+                margin: 10px;
+            }
+
+            .top_review .top_review_box .top_review_card .top_review_tag .review {
+                color: #089da1;
+                margin-top: 5px;
+                font-size: 15px;
+            }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #089da1;
+    border-radius: 10px;
+}
+
+.checked {
+    color: orange;
+}
