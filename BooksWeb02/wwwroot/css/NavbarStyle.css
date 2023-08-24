@@ -1,0 +1,41 @@
+﻿* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dropdown-icon {
+    background: white;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    transition: 0.2s ease color;
+}
+
+.dropbtn:active {
+    outline: none;
+}
+
+.dropdown-icon :active {
+    outline: none;
+}
+
+.dropdown-menu-right {
+    margin-right: 30px;
+   
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 0 15px 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item :hover {
+    box-shadow: 0 4px 2px -2px #089da1;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+}
+
+.glyphicon-align-justify{
+    color:#089da1;
+}

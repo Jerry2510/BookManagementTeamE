@@ -7,13 +7,18 @@
     @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/NavbarStyle.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BooksWeb02.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+
+       <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <a asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/logo.png" class="logo" alt="Team E"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -22,6 +27,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="author" asp-action="index" >Authors</a>
                         </li>
@@ -31,21 +37,27 @@
 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="book" asp-action="index">Books</a>
-                        </li
+                        </li>
 
                          <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="book" asp-action="add">Add Books</a>
                         </li>
-
-                        @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" 
-                                    asp-controller="Home" 
-                                    asp-action="Privacy">Privacy</a>
-                        </li>*@
                     </ul>
                 </div>
             </div>
-        </nav>
+
+            <div class="btn-group ">
+                <button type="button" class="btn dropdown-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" type="button">Login</button>
+                    <button class="dropdown-item" type="button">Sign Up</button>
+                    <button class="dropdown-item" type="button">Members</button>
+                </div>
+            </div>
+
+            </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
