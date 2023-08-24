@@ -12,9 +12,9 @@
             <div class="card-body">
                 <h5 class="card-title">@book.Title</h5>
                 <p class="card-text">Book Description</p>
-                <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary">details</a>
-                <a asp-action="Edit" asp-route-id="@book.Id" class="btn  btn-primary">edit</a>
-                <a asp-action="Delete" asp-route-id="@book.Id" class="btn  btn-primary">Delete</a>
+                    <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary" style="background:#45a3f5">Details</a>
+                    <a asp-action="Edit" asp-route-id="@book.Id" class="btn  btn-primary" style="background:#0ff24b">Update</a>
+                    <a asp-action="Delete" asp-route-id="@book.Id" class="btn  btn-primary" style="background:#f2271f">Delete</a>
 
             </div>
         </div>

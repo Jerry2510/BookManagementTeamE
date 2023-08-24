@@ -1,0 +1,94 @@
+﻿body {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+}
+
+.form-content {
+    background-color: #ffffff;
+    opacity: 0.95;
+    margin: 2% auto 2% auto; /* 5% from the top, 15% from the bottom and centered */
+    padding: 1%; /*1% from all the sides*/
+    border-radius: 12px;
+    width: 55%;
+    box-shadow: 5px 8px 40px #9d9d9d;
+    align-content: center;
+}
+
+.form-name {
+    text-align: center; /*align text to center*/
+    font-family: var(--bs-body-font-family);
+    font-weight: 600;
+    text-shadow: 2px 3px 4px #e4e4e4; /*shadow effect*/
+    margin-top: 10px;
+}
+
+.form-container {
+    align-content: center;
+    width: 80%;
+    margin: auto 10%;
+    overflow: auto;
+}
+
+label {
+    width: 20%;
+}
+
+input {
+    color: #7a7a7a;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 1% 2%;
+    margin-left: 5%;
+    display: inline-block;
+    border: none;
+    border-bottom: #d4d4d4 solid 2px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.submit-btn {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    padding: 10px 18px;
+    border-radius: 7px;
+    margin: 20px auto;
+    background-color: #1cb926;
+    border: none;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .submit-btn {
+        width: 100%;
+    }
+}
