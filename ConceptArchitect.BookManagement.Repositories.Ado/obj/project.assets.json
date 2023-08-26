@@ -62,19 +62,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\munnasa\\.nuget\\packages\\": {}
+    "C:\\Users\\biranaa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+      "projectUniqueName": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
       "projectName": "ConceptArchitect.BookManagement.Repositories.Ado",
-      "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
-      "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
+      "projectPath": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+      "packagesPath": "C:\\Users\\biranaa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\biranaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -88,11 +88,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-              "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+            "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+              "projectPath": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
             },
-            "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-              "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+            "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+              "projectPath": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
             }
           }
         }

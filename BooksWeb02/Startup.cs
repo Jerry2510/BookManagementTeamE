@@ -17,6 +17,7 @@ namespace BooksWeb02
 
             services.AddSingleton<IBookService, PersistentBookService>();
             services.AddSingleton<IUserService, PersistentUserService>();
+            services.AddSingleton<IReviewService, PersistentReviewService>();
 
             return services;
         }

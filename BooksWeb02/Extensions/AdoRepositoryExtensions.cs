@@ -34,6 +34,8 @@ namespace BooksWeb02.Extensions
             services.AddSingleton<IRepository<Book, string>, AdoBookRepository>();
 
             services.AddSingleton<IRepository<User, string>, AdoUserRepository>();
+
+            services.AddSingleton<IRepository<review, string>, AdoReviewRepository>();
             return services;
         }
 

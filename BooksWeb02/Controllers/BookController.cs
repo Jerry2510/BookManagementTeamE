@@ -18,11 +18,23 @@ namespace BooksWeb02.Controllers
             var books = await bookService.GetAllBooks();
             return View(books);
         }
+        public async Task<ViewResult> favs()
+        {
+            var books = await bookService.GetAllfavs();
+
+            return View(books);
+        }
 
         public async Task<ViewResult> Details(string id)
         {
             var author = await bookService.GetBookById(id);
             return View(author);
+        }
+        public async Task<ActionResult> deletefavs(string id, string userId = "amit@gmail.com")
+        {
+            await bookService.DeleteFav(id, userId);
+
+            return RedirectToAction("favs");
         }
 
         [HttpGet]
@@ -61,12 +73,27 @@ namespace BooksWeb02.Controllers
             return RedirectToAction("Index");
             
         }
+        [HttpGet]
+        public async Task<ActionResult> favorite(string id)
+        {
+            var author = await bookService.GetBookById(id);
+            await bookService.addFav(author, "amit@gmail.com");
+
+            return RedirectToAction("favs");
+        }
+        [HttpPost]
+        public async Task<ActionResult> favorite(Book author)
+        {
+            await bookService.addFav(author, "amit@gmail.com");
+
+            return RedirectToAction("favs");
+        }
 
         //[HttpPost]
         //public async Task<ActionResult> Delete()
         //{
-            
-            
+
+
         //}
 
     }

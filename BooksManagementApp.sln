@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceptArchitect.Data", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksWeb01", "BooksWeb01\BooksWeb01.csproj", "{3BE42322-6F75-4494-974B-0F7A51A5C79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksWeb02", "BooksWeb02\BooksWeb02.csproj", "{E0C7FF74-0E5D-476E-A160-0B8CF478D7F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksWeb02", "BooksWeb02\BooksWeb02.csproj", "{E0C7FF74-0E5D-476E-A160-0B8CF478D7F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceptArchitect.Utils", "ConceptArchitect.Utils\ConceptArchitect.Utils.csproj", "{EC57B624-34BA-4392-BAC9-0ED823F10D16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceptArchitect.Utils", "ConceptArchitect.Utils\ConceptArchitect.Utils.csproj", "{EC57B624-34BA-4392-BAC9-0ED823F10D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceptArchitect.BookManagement.Repositories.Ado", "ConceptArchitect.BookManagement.Repositories.Ado\ConceptArchitect.BookManagement.Repositories.Ado.csproj", "{F2C19E16-61A0-4C25-91D6-FA0A5713908E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceptArchitect.BookManagement.Repositories.Ado", "ConceptArchitect.BookManagement.Repositories.Ado\ConceptArchitect.BookManagement.Repositories.Ado.csproj", "{F2C19E16-61A0-4C25-91D6-FA0A5713908E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

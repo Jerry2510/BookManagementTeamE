@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {}
+    "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+    "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "projectName": "ConceptArchitect.Utils",
-        "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
-        "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\obj\\",
+        "projectPath": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "packagesPath": "C:\\Users\\biranaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\ConceptArchitect.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\biranaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

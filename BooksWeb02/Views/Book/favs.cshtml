@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ConceptArchitect.BookManagement.Book>
+
+
+<h2>Favourites Books</h2>
+
+<div class="row">
+
+    @foreach (var book in Model)
+    {
+        <div class='col col-md-3'>
+            <div class="card" style="width: 18rem; margin-bottom:5rem">
+                <img class="card-img-top" src="@book.CoverPhoto" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@book.Title</h5>
+                    <p class="card-text">@book.Description</p>
+                    <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary">Details</a>
+                    <a asp-action="deletefavs" asp-route-id="@book.Id" class="btn  btn-danger">Remove from Favourite</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fe+lr3X7Se49I4dsgM/AAWEhOIM5bvUnjLmrUR/i8l4=",
+  "Hash": "jXHfolRJWRBx1/MsiZrDNd7HJuLan1yY6WAKXEoTXUg=",
   "Source": "BooksWeb02",
   "BasePath": "_content/BooksWeb02",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BooksWeb02\\wwwroot",
       "Source": "BooksWeb02",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BooksWeb02.styles.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BooksWeb02.styles.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "BooksWeb02.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BooksWeb02.styles.css"
+      "OriginalItemSpec": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BooksWeb02.styles.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BooksWeb02.bundle.scp.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BooksWeb02.bundle.scp.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "BooksWeb02.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BooksWeb02.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BooksWeb02.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\AddPageStyle.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\AddPageStyle.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "css/AddPageStyle.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AddPageStyle.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\details.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\details.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "css/details.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\homepageStyles.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\homepageStyles.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "css/homepageStyles.css",
       "AssetKind": "All",
@@ -102,27 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homepageStyles.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\NavbarStyle.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
-      "BasePath": "_content/BooksWeb02",
-      "RelativePath": "css/Login.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Login.css"
-    },
-    {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\NavbarStyle.css",
-      "SourceId": "BooksWeb02",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "css/NavbarStyle.css",
       "AssetKind": "All",
@@ -136,27 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\NavbarStyle.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\register.css",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\css\\site.css",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
-      "BasePath": "_content/BooksWeb02",
-      "RelativePath": "css/register.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\register.css"
-    },
-    {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\css\\site.css",
-      "SourceId": "BooksWeb02",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -170,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\favicon.ico",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -187,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\js\\site.js",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -204,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\logo.png",
+      "Identity": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\logo.png",
       "SourceId": "BooksWeb02",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb02\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\biranaa\\OneDrive - Ecolab\\Desktop\\BooksManagementAppTeamE\\BookManagementTeamE\\BooksWeb02\\wwwroot\\",
       "BasePath": "_content/BooksWeb02",
       "RelativePath": "logo.png",
       "AssetKind": "All",
