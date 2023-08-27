@@ -84,6 +84,20 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 
         }
 
-        
+        public Task<List<Author>> GetAllF()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Author> fav(Author entity, string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task DeleteFav(string bookId, string userId)
+        {
+            await db.ExecuteUpdateAsync($"delete from authors where book_id='{bookId}' and user_id='{userId}'");
+        }
+
     }
 }

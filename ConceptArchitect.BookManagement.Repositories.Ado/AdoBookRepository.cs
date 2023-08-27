@@ -14,6 +14,16 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             this.dbManager = dbManager;
         }
 
+        public async Task<Book> fav(Book book, string userId)
+        {
+            var query = $"insert into favorites(book_id, user_id, status) " +
+                              $"values('{book.Id}','{userId}','Reading')";
+
+            await dbManager.ExecuteUpdateAsync(query);
+
+            return book;
+        }
+
         private Book BookExtractor(IDataReader reader)
         {
             Book book = new Book();
@@ -33,6 +43,11 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             await dbManager.ExecuteUpdateAsync(query);
             
             return book;
+        }
+
+        public async Task DeleteFav(string id, string user_id)
+        {
+            await dbManager.ExecuteUpdateAsync($"delete from favorites where book_id='{id}' and user_id='{user_id}'");
         }
 
         public async Task Delete(string id)
@@ -75,6 +90,21 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             return oldBook;
         }
 
-       
+        public async Task<List<Book>> GetAllF()
+        {
+            return await dbManager.QueryAsync("Select * from Books where id in(Select book_id from Favorites);", BookExtractor);
+        }
+
+        public async Task<List<Book>> GetAllF(Func<Book, bool> predicate)
+        {
+            var books = await GetAllF();
+
+            return (from book in books
+                    where predicate(book)
+                    select book).ToList();
+
+        }
+
+
     }
 }

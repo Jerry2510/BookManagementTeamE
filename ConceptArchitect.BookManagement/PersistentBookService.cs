@@ -16,6 +16,11 @@ namespace ConceptArchitect.BookManagement
             this.repository = bookRepository;
         }
 
+        public async Task<Book> addFav(Book author, string userId)
+        {
+            return await repository.fav(author, userId);
+        }
+
         public async Task<Book> AddBook(Book book)
         {
             if(book == null)
@@ -45,6 +50,11 @@ namespace ConceptArchitect.BookManagement
             return $"{id}+{d}";
         }
 
+        public async Task DeleteFav(string bookId, string userId)
+        {
+            await repository.DeleteFav(bookId, userId);
+        }
+
         public async Task DeleteBook(string bookId)
         {
             await repository.Delete(bookId);
@@ -53,6 +63,11 @@ namespace ConceptArchitect.BookManagement
         public async Task<List<Book>> GetAllBooks()
         {
             return await repository.GetAll(); 
+        }
+
+        public async Task<List<Book>> GetAllfavs()
+        {
+            return await repository.GetAllF();
         }
 
         public async Task<Book> GetBookById(string id)

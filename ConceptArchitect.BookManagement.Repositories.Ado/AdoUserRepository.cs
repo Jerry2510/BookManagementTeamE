@@ -75,5 +75,20 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
             }
             return entity;
         }
+
+        public Task<List<User>> GetAllF()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<User> fav(User entity, string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task DeleteFav(string bookId, string userId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
