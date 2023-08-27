@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vFC0NsoNhTVPdgY6C2Ng92ispxdn/An14Jq/em6JC1lcoCEMGLhp3KBVcUfoYuGIRvcfPwkPOlTNYj1t7vLpgw==",
+  "dgSpecHash": "6Ce90Yh+RK1DOGFeNNjS/UsyOWkzk9863fRjBrfirkSqC1FioyF09A6dRmhTUQ2SIKbBoBEOQpoIs3DoeER1dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\BooksWeb01\\BooksWeb01.csproj",
+  "projectFilePath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\BooksWeb01\\BooksWeb01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\munnasa\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\munnasa\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

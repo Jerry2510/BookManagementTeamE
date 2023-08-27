@@ -14,3 +14,11 @@ C:\Users\munnasa\source\repos\BooksManagementTeamE\BooksManagmentConsole\obj\Deb
 C:\Users\munnasa\source\repos\BooksManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.csproj.CoreCompileInputs.cache
 C:\Users\munnasa\source\repos\BooksManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.exe
 C:\Users\munnasa\source\repos\BooksManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.pdb
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\bin\Debug\BooksManagmentConsole.exe.config
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\bin\Debug\BooksManagmentConsole.exe
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\bin\Debug\BooksManagmentConsole.pdb
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.csproj.AssemblyReference.cache
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.csproj.CoreCompileInputs.cache
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.exe
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.pdb

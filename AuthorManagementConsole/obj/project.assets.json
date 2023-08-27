@@ -218,11 +218,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\AuthorManagementConsole\\AuthorManagementConsole.csproj",
+      "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\AuthorManagementConsole\\AuthorManagementConsole.csproj",
       "projectName": "AuthorManagementConsole",
-      "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\AuthorManagementConsole\\AuthorManagementConsole.csproj",
+      "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\AuthorManagementConsole\\AuthorManagementConsole.csproj",
       "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\AuthorManagementConsole\\obj\\",
+      "outputPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\AuthorManagementConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,8 +239,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-              "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+            "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+              "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
             }
           }
         }

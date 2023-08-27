@@ -18,6 +18,8 @@ namespace BooksWeb02
             services.AddSingleton<IBookService, PersistentBookService>();
             services.AddSingleton<IUserService, PersistentUserService>();
             services.AddSingleton<IReviewService, PersistentReviewService>();
+            services.AddSwaggerGen();
+
 
             return services;
         }
@@ -38,7 +40,12 @@ namespace BooksWeb02
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
 
+            }
             return app;
         }
             

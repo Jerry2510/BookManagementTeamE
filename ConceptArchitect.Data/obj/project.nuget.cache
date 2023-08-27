@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GE1rydZquJ9YI4IPv/xb3tWTevSGT/eB7afoNfbVF+GqHRXagLNMZ/gKi1ipf8VPYY0tDefbnOyJh/R1VkIcSw==",
+  "dgSpecHash": "fWtEEbTX0/DiFjlB8gBgM3HQ8JIh+rb9Y3Lg8nb18/gW0dO+XbP9beiEEkIoUT7JfDkr657GLH1+aWBoJDgCLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+  "projectFilePath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+      "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
       "projectName": "ConceptArchitect.Data",
-      "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+      "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
       "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\obj\\",
+      "outputPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",

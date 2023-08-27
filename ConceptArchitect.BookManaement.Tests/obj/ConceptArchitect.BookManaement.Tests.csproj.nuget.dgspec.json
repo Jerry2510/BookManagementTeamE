@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj": {}
+    "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj": {
+    "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj",
         "projectName": "ConceptArchitect.BookManaement.Tests",
-        "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj",
+        "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj",
         "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManaement.Tests\\obj\\",
+        "outputPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManaement.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-                "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+              "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+                "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+    "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
         "projectName": "ConceptArchitect.BookManagement",
-        "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
         "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManagement\\obj\\",
+        "outputPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,11 +113,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
-                "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
+              "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+                "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
               },
-              "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+    "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
         "projectName": "ConceptArchitect.Data",
-        "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
         "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Data\\obj\\",
+        "outputPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -206,14 +206,14 @@
         }
       }
     },
-    "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+    "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "projectName": "ConceptArchitect.Utils",
-        "projectPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "packagesPath": "C:\\Users\\munnasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.Utils\\obj\\",
+        "outputPath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\munnasa\\AppData\\Roaming\\NuGet\\NuGet.Config",

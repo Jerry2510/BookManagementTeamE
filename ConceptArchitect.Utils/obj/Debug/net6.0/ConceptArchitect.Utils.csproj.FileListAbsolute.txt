@@ -58,3 +58,15 @@ C:\Users\biranaa\OneDrive - Ecolab\Desktop\BooksManagementAppTeamE\BookManagemen
 C:\Users\biranaa\OneDrive - Ecolab\Desktop\BooksManagementAppTeamE\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
 C:\Users\biranaa\OneDrive - Ecolab\Desktop\BooksManagementAppTeamE\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
 C:\Users\biranaa\OneDrive - Ecolab\Desktop\BooksManagementAppTeamE\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.deps.json
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.csproj.AssemblyReference.cache
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfoInputs.cache
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfo.cs
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.csproj.CoreCompileInputs.cache
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\munnasa\source\repos\FinalBookManagementapp\BookManagementTeamE\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll

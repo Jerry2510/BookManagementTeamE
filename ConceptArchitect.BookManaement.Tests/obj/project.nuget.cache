@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b3qSwbUNMUAV7Qyx+3jxpH5BUPUXl7esDiBGtlcwY3fN52XsCDwsnlSQex6Kek9WfvStqNB0MTqjKyMxlwByJg==",
+  "dgSpecHash": "xPBS/rUKeag63Y+peV07jMbVU4jTG+/q8eKQ0E+rls+lJbrx6j+Qtm4Fp6ZfdPpqpfZsX1f2pGRGtRT4pWnPkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\munnasa\\source\\repos\\BooksManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj",
+  "projectFilePath": "C:\\Users\\munnasa\\source\\repos\\FinalBookManagementapp\\BookManagementTeamE\\ConceptArchitect.BookManaement.Tests\\ConceptArchitect.BookManaement.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\munnasa\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\munnasa\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
