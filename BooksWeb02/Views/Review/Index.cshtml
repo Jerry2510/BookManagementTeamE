@@ -1,6 +1,17 @@
 ﻿@model IEnumerable<ConceptArchitect.BookManagement.review>
 
 
+<head>
+    <link rel="stylesheet" href="~/css/IndexStyling.css" asp-append-version="true" />
+    <title>Reviews</title>
+    <style>
+        .card{
+            box-shadow: 5px 10px;
+            margin: 15px auto;
+            border: solid blue 1px;
+        }
+    </style>
+</head>
 
 <h2>All Reviews</h2>
 
@@ -9,13 +20,17 @@
     @foreach (var review in Model)
     {
         <div class='col col-md-3'>
-            <div class="card" style="width: 18rem;margin-bottom:5rem">
+            <div class="card">
 
                 <div class="card-body">
-                    <h5 class="card-title">@review.book_id</h5>
-                    <p class="card-text">@review.reviewer_email</p>
-                    <p class="card-text">@review.rating</p>
+                    <h5 class="card-title"><b>@review.book_id</b></h5>
+                    <p class="card-text">
+                        <b>@review.rating</b>
+                        <span class=" glyphicon glyphicon-star" style="color:goldenrod"></span>
+                    </p>
+                   
                     <p class="card-text">@review.details</p>
+                    <i class="card-text">@review.reviewer_email</i>
                 </div>
             </div>
         </div>

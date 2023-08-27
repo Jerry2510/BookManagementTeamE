@@ -1,30 +1,45 @@
 ﻿@using ConceptArchitect.BookManagement
 @model Author
 
-<h2>Update Author</h2>
 
+<head>
+    <link rel="stylesheet" href="~/css/AddPageStyle.css" asp-append-version="true" />
+    <title>Update Authors</title>
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/free-photo/minimal-work-space-creative-flat-lay-photo-workspace-desk-with-sketchbook-wooden-pencil-copy-space-white-background-top-view-flat-lay-photography_1253-995.jpg?w=2000");
+        }
+    </style>
+</head>
 
-<form asp-action="Edit" method="POST">
-
-    <label asp-for="@Model.Id" class='form-label'>Id</label>
-    <input type='text' name="Id" value="@Model.Id" class='form-control' />
-
-    <label asp-for="@Model.Name" class='form-label'>Name</label>
-    <input type='text' name="Name" value="@Model.Name" class='form-control' />
-
-    <label asp-for="@Model.Biography" class='form-label'>Biography</label>
-    <input type='text' name="biography" value="@Model.Biography" class='form-control' />
-
-    <label asp-for="@Model.Email" class='form-label'>Email</label>
-    <input type='text' name="email" value="@Model.Email" class='form-control' />
-
-    <label asp-for="@Model.Photo" class='form-label'>Photo</label>
-    <input type='text' name="photo" value="@Model.Photo" class='form-control' />
-
+<body>
     <div>
+        <form asp-action="Edit" method="POST" class="form-content animate">
+            <h2 class="form-name">UPDATE AUTHOR DETAILS</h2>
+            <div class="form-container">
+                <label asp-for="@Model.Id" class='form-label'>Id</label>
+                <input type='text' name="Id" value="@Model.Id" />
 
-        <input type="submit" value="Update Author" class='btn btn-primary form-control' />
+                <label asp-for="@Model.Name" class='form-label'>Name</label>
+                <input type='text' name="Name" value="@Model.Name" />
+
+                <label asp-for="@Model.Biography" class='form-label'>Biography</label>
+                <input type='text' name="biography" value="@Model.Biography" />
+
+                <label asp-for="@Model.Email" class='form-label'>Email</label>
+                <input type='text' name="email" value="@Model.Email" />
+
+                <label asp-for="@Model.Photo" class='form-label'>Photo</label>
+                <input type='text' name="photo" value="@Model.Photo" />
+            </div>
+
+            <div>
+
+                <input type="submit" value="Update Author" class='btn btn-primary submit-btn' />
+            </div>
+        </form>
+
+
+
     </div>
-</form>
-
-
+</body>

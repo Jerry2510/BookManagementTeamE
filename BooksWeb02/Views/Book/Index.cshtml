@@ -2,23 +2,34 @@
 
 <a asp-action="Add" class="btn-secondary btn btn-sm">Add New</a>
 
+<head>
+    <link rel="stylesheet" href="~/css/IndexStyling.css" asp-append-version="true" />
+    <title>Books</title>
+</head>
+
 <h2>Recommended Books</h2>
+<div style="margin-bottom:20px">
+
+
 <div class="row">
     @foreach (var book in Model)
     {
-    <div class="col col-md-3">
+        <div class="col col-md-3">
         <div class="card">
             <img class="card-img-top" src="@book.CoverPhoto" alt="Card image cap"/>
             <div class="card-body">
-                <h5 class="card-title">@book.Title</h5>
-                <p class="card-text">@book.Description</p>
-                    <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary" style="background:#45a3f5">Details</a>
-                    <a asp-action="Edit" asp-route-id="@book.Id" class="btn  btn-primary" style="background:#0ff24b">Update</a>
-                    <a asp-action="Delete" asp-route-id="@book.Id" class="btn  btn-primary" style="background:#f2271f">Delete</a>
-                    <a asp-action="favorite" asp-route-id="@book.Id" class="btn  btn-info" style="background:#f573db">Add to Favorite</a>
-                    <a asp-action="review" asp-controller="review" asp-route-id="@book.Id" class="btn  btn-info" style="background:#7ff8fa">Add Review</a>
-            </div>
+                    <h4 class="card-title"> <b>@book.Title</b> </h4>
+                    <p class="card-text">@book.Description</p>
+                        <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary button-class" style="background:#037bfc">Details</a>
+                        <a asp-action="review" asp-controller="review" asp-route-id="@book.Id" class="btn  btn-info button-class" style="background:#fcba03">Add Review</a>
+                        
+                        <a asp-action="Edit" asp-route-id="@book.Id" class="btn  btn-primary button-class" style="background:#0ff24b">Update</a>
+                        <a asp-action="Delete" asp-route-id="@book.Id" class="btn  btn-primary button-class" style="background:#f2271f">Delete</a>
+                        <a asp-action="favorite" asp-route-id="@book.Id" class="  button-class glyphicon glyphicon-heart" style="color: red; font-size: 30px;"></a>
+                    </div>
         </div>
     </div>
         }
+</div>
+
 </div>

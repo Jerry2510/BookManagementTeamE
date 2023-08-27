@@ -1,31 +1,43 @@
 ﻿@using ConceptArchitect.BookManagement
 @model review
 
-<h2>Add Review</h2>
 
+<head>
+    <link rel="stylesheet" href="~/css/AddPageStyle.css" asp-append-version="true" />
+    <title>Add Books</title>
+    <style>
+        body {
+            background-image: url("https://birdeye.com/blog/wp-content/uploads/Feature-image-5-positive-Review-Examples-1.png");
+        }
+    </style>
+</head>
 
-<form asp-action="review" method="POST">
-
-    <label asp-for="@Model.book_id" class='form-label'>Id</label>
-    <input type='text' name="book_id" value="@Model.book_id" class='form-control' readonly style="background-color:gray" />
-
-    <label asp-for="@Model.reviewer_email" class='form-label'>reviewer_email</label>
-    <input type='text' name="reviewer_email" value="@Model.reviewer_email" class='form-control' />
-
-    <label asp-for="@Model.rating" class='form-label'>rating</label>
-    <input type='text' name="rating" value="@Model.rating" class='form-control' />
-
-
-    <label asp-for="@Model.title" class='form-label'>title</label>
-    <input type='text' name="title" value="@Model.title" class='form-control' />
-
-    <label asp-for="@Model.details" class='form-label'>details</label>
-    <input type='text' name="details" value="@Model.details" class='form-control' />
-
-
-
-
+<body>
     <div>
-        <input type="submit" value="Add Review" class='btn btn-primary form-control' />
+        <form asp-action="review" method="POST" class="form-content animate" style=" margin-top: 60px">
+            <h4 class="form-name">ADD REVIEWS FOR <i>@Model.book_id</i></h4>
+            <div class="form-container">
+                <label asp-for="@Model.book_id" class='form-label'>Id</label>
+                <input type='text' name="book_id" value="@Model.book_id" readonly style="font-weight:700; color: blue" />
+
+                <label asp-for="@Model.reviewer_email" class='form-label'>reviewer_email</label>
+                <input type='text' name="reviewer_email" value="@Model.reviewer_email"/>
+
+                <label asp-for="@Model.rating" class='form-label'>rating</label>
+                <input type='text' name="rating" value="@Model.rating" />
+
+                <label asp-for="@Model.title" class='form-label'>title</label>
+                <input type='text' name="title" value="@Model.title"  />
+
+                <label asp-for="@Model.details" class='form-label'>details</label>
+                <input type='text' name="details" value="@Model.details" />
+            </div>
+
+
+
+            <div>
+                <input type="submit" value="Add Review" class='btn btn-primary submit-btn' />
+            </div>
+        </form>
     </div>
-</form>
+</body>
