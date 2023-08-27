@@ -1,6 +1,11 @@
 ﻿@model IEnumerable<ConceptArchitect.BookManagement.Author>
 
 
+<head>
+    <link rel="stylesheet" href="~/css/IndexStyling.css" asp-append-version="true" />
+    <title>Authors</title>
+</head>
+
 <a asp-action="Add" class='btn-secondary btn btn-sm'>Add New</a>
 
 <h2>Recommended Authors</h2>
@@ -16,9 +21,9 @@
                     <h5 class="card-title">@author.Name</h5>
                     <p class="card-text">author biography</p>
                     <p class="card-text">@author.Email</p>
-                    <a asp-action="details" asp-route-id="@author.Id" class="btn  btn-primary" style="background:#45a3f5">Details</a>
-                    <a asp-action="edit" asp-route-id="@author.Id" class="btn  btn-primary" style="background:#0ff24b">Update</a>
-                    <a asp-action="Delete" asp-route-id="@author.Id" class="btn  btn-primary" style="background:#f2271f">Delete</a>
+                    <a asp-action="details" asp-route-id="@author.Id" class="btn  btn-primary button-class " style="background:#45a3f5">Details</a>
+                    <a asp-action="edit" asp-route-id="@author.Id" class="btn  btn-primary button-class " style="background:#0ff24b">Update</a>
+                    <a asp-action="Delete" asp-route-id="@author.Id" class="btn  btn-primary button-class " style="background:#f2271f">Delete</a>
                 </div>
             </div>
         </div>

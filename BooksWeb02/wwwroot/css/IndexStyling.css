@@ -1,0 +1,15 @@
+﻿
+.button-class {
+    margin: 3px 2px;
+    outline: none;
+    border: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+glyphicon:hover {
+    text-decoration: none;
+    outline: none;
+}

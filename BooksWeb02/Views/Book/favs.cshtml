@@ -1,6 +1,11 @@
 ﻿@model IEnumerable<ConceptArchitect.BookManagement.Book>
 
 
+<head>
+    <link rel="stylesheet" href="~/css/IndexStyling.css" asp-append-version="true" />
+    <title>Favourite Books</title>
+</head>
+
 <h2>Favourites Books</h2>
 
 <div class="row">
@@ -8,13 +13,13 @@
     @foreach (var book in Model)
     {
         <div class='col col-md-3'>
-            <div class="card" style="width: 18rem; margin-bottom:5rem">
+            <div class="card" style="margin-bottom:5rem">
                 <img class="card-img-top" src="@book.CoverPhoto" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">@book.Title</h5>
+                    <h5 class="card-title"><b>@book.Title</b></h5>
                     <p class="card-text">@book.Description</p>
-                    <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary">Details</a>
-                    <a asp-action="deletefavs" asp-route-id="@book.Id" class="btn  btn-danger">Remove from Favourite</a>
+                    <a asp-action="details" asp-route-id="@book.Id" class="btn  btn-primary button-class" style="background:#037bfc">Details</a>
+                    <a asp-action="deletefavs" asp-route-id="@book.Id" class="glyphicon glyphicon-heart-empty button-class" style="color: red; font-size: 30px;"></a>
                 </div>
             </div>
         </div>
